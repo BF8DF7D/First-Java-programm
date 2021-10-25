@@ -1,0 +1,2 @@
+main-class: Zadanie
+class-path: bin/
