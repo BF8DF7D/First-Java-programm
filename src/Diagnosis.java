@@ -24,8 +24,8 @@ public class Diagnosis {
                 Leght_Entire_Record += word.codePointCount(0, word.length());
                 if ((Leght_Entire_Record - Sum_Leght_OldStrings) / Length_Record == 1) {
                     this.Recomendations = this.Recomendations.concat("\n ");
+                    Sum_Leght_OldStrings = Leght_Entire_Record + 1 - word.codePointCount(0, word.length());
                     Leght_Entire_Record += 2;
-                    Sum_Leght_OldStrings = Leght_Entire_Record - word.codePointCount(0, word.length());
                 }
 
                 if (word.length() - 2 >= 0) {

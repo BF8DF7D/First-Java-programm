@@ -1,6 +1,3 @@
-import java.io.PrintStream;
-import java.nio.charset.Charset;
-import java.sql.Struct;
 import java.util.Scanner;
 
 public class Doctor {

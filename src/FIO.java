@@ -1,5 +1,3 @@
-import java.nio.charset.Charset;
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class FIO {
